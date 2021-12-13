@@ -1,0 +1,1 @@
+start chrome https://ncov.moh.gov.vn/vi/web/guest/dong-thoi-gian

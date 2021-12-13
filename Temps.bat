@@ -1,0 +1,1 @@
+@pyw "D:\\C++ Examples\\source\\repos\\Caduceus\\Temps.py" %*

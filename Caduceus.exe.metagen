@@ -1,0 +1,78 @@
+  Caduceus.Home.resources - Embedded, ContainedInManifestFile, 
+  Caduceus.LatestNews.resources - Embedded, ContainedInManifestFile, 
+  Caduceus.MyForm.resources - Embedded, ContainedInManifestFile, 
+  Caduceus.Record.resources - Embedded, ContainedInManifestFile, 
+  Caduceus.Temperature.resources - Embedded, ContainedInManifestFile, 
+  Caduceus.TermsandConditions.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Caduceus, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Caduceus.LatestNews: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.Form): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Form obj : Public
+Class Caduceus.Temperature: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.Form): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Data.SqlClient.SqlConnection connection : Public
+    System.Data.SqlClient.SqlCommand command : Public
+    System.String str : Public
+    System.Data.SqlClient.SqlDataAdapter adapter : Public
+    Int32 counter : Public
+    Double temp : Public
+    Double second : Public
+    Int32 count : Public
+    System.String origin_path : Public
+    System.String filename : Public
+    System.IO.StreamWriter sw : Public
+    System.Windows.Forms.Form obj : Public
+Class Caduceus.Record: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Windows.Forms.Form): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Form obj : Public
+    System.String str_1 : Public
+    System.String str_2 : Public
+Class Caduceus.Home: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.Form): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Data.SqlClient.SqlConnection connection : Public
+    System.Data.SqlClient.SqlCommand command : Public
+    System.String str : Public
+    System.Data.SqlClient.SqlDataAdapter adapter : Public
+    Int32 CityCode : Public
+    Int32 TownCode : Public
+    System.String gender : Public
+    System.Data.DataTable table : Public
+    System.String origin_path : Public
+    System.Windows.Forms.Form obj : Public
+Class Caduceus.TermsandConditions: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.Form): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Form obj : Public
+Class Caduceus.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String origin_path : Public

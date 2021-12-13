@@ -1,0 +1,13 @@
+﻿D:\Programs\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(499,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  Home.cpp
+D:\C++ Examples\source\repos\Caduceus\Temperature.h(736,35): warning C4101: 'e': unreferenced local variable
+  MyForm.cpp
+D:\C++ Examples\source\repos\Caduceus\Temperature.h(736,35): warning C4101: 'e': unreferenced local variable
+  Temperature.cpp
+D:\C++ Examples\source\repos\Caduceus\Temperature.h(736,35): warning C4101: 'e': unreferenced local variable
+  Generating Code...
+D:\C++ Examples\source\repos\Caduceus\Temperature.h(801): warning C4700: uninitialized local variable 'Sum' used
+D:\C++ Examples\source\repos\Caduceus\Temperature.h(801): warning C4700: uninitialized local variable 'Sum' used
+D:\C++ Examples\source\repos\Caduceus\Temperature.h(801): warning C4700: uninitialized local variable 'Sum' used
+  Home.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  Caduceus.vcxproj -> D:\C++ Examples\source\repos\Caduceus\Caduceus.exe
